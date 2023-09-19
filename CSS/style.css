@@ -1,6 +1,11 @@
 /* style */
 /* @import "compass/css3";
 /* Reset some default browser styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
